@@ -14,8 +14,33 @@
     width: 231px;
     margin-right: 70px;
 }
-.footer-section2 {
+.discover {
     display: flex;
     flex-direction: column;
     margin-right: 93px;
+    &__title {
+        margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  }
+  & .social-list {
+    display: inline-flex;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  }
+  & .social-list__link {
+    background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  fill: #ffffff;
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   &:hover {
+    background: $accent-color;
+   }
+  }
+    
 }

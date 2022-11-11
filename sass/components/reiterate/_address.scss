@@ -1,0 +1,74 @@
+
+.firm-address {
+    font-weight: 400;
+    line-height: 1.71;
+    font-style: normal;
+}
+
+.firm-address__list {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+.page-header-address__list {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin-left: auto;
+}
+.firm-address__item {
+    @extend %list;
+    margin: 0;
+    padding: 0;
+
+}
+.page-header-address__item {
+    display: inline-flex;
+}
+.firm-address__link {
+    @extend %link;
+    color: rgba(255, 255, 255, 0.6);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover, &:focus {
+        color: $accent-color;
+    }
+}
+
+.page-header-address__link {
+     display: flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+    color: $primary-color;
+
+}
+
+.map {
+    color: #ffffff;
+    
+}
+
+// icon
+%div-icon-adress {
+   display: inline-flex;
+  margin-right: 10px;
+  fill: currentColor;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.envelope {
+      width: 16px;
+  height: 12px;
+  @extend %div-icon-adress;
+}
+.smartphone {
+    width: 10px;
+  height: 16px;
+  @extend %div-icon-adress;
+}
+.address-icon {
+    @extend %icons;
+}

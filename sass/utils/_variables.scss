@@ -20,13 +20,17 @@ $logo-footer-color: #FFFFFF;
     margin-right: auto;
     margin-left: auto;
 }
+%icons {
+    width: 100%;
+    height: 100%;
+}
 body {
-  font-family: var(--primary-font-family), -apple-system, BlinkMacSystemFont,
+  font-family: $primary-font-family, -apple-system, BlinkMacSystemFont,
     avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu,
     noto, arial, sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
-  color: var(--primary-color);
+  color: $primary-color;
 
   max-width: 1600px;
 }
@@ -47,8 +51,4 @@ button {
   color: inherit;
   background-color: transparent;
   cursor: pointer;
-}
-ul, li, a {
-list-style-type: none;
-text-decoration: none;
 }

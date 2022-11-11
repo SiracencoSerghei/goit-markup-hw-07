@@ -1,7 +1,10 @@
 @import "./utils/normalize";
 @import "./utils/variables";
-@import "./components/logo";
+@import "./components/header";
+@import "./components/reiterate/logo";
+@import "./components/reiterate/address";
+@import "./components/reiterate/socials";
+@import "./components/reiterate/form-sign";
+@import "./components/reiterate/button";
 @import "./components/navigation";
 @import "./components/footer";
-@import "./components/address";
-@import "./components/form-sign";
