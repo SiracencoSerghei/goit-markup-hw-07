@@ -21,7 +21,7 @@
       referrerpolicy="no-referrer"
     />
 
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <!-- ТЕЛО -->
 
@@ -31,33 +31,33 @@
       <!-- НАВИГАЦИЯ САЙТУ -->
       <div class="container box">
         <nav class="nav">
-          <a href="./index.html" lang="en" class="link nav-logo"
-            ><span class="accent">Web</span>Studio</a
+          <a href="./index.html" lang="en" class="logo nav__logo"
+            ><span class="logo--accent">Web</span>Studio</a
           >
-          <ul class="nav-link">
-            <li class="item">
-              <a href="./index.html" class="link nav-studio current">Студія</a>
+          <ul class="nav__link">
+            <li class="nav__item">
+              <a href="./index.html" class="nav__studio current">Студія</a>
             </li>
-            <li class="item">
-              <a href="./portfolio.html" class="link nav-portfolio"
+            <li class="nav__item">
+              <a href="./portfolio.html" class="nav__portfolio"
                 >Портфоліо</a
               >
             </li>
-            <li class="item">
-              <a href="#" class="link nav-contacts">Контакти</a>
+            <li class="nav__item">
+              <a href="#" class="nav__contacts">Контакти</a>
             </li>
           </ul>
         </nav>
         <!--КОНТАКТИ-->
-        <ul class="header-contacts">
-          <li class="item">
+        <ul class="firm-adress__link">
+          <li class="firm-adress__item">
             <a
               href="mailto:info@devstudio.com"
               lang="en"
-              class="link header-mail"
+              class="firm-address__mail"
             >
-              <div class="header-envelope">
-                <svg class="icon-header">
+              <div class="envelope">
+                <svg class="address-icon">
                   <use href="./img/symbol-defs.svg#icon-envelope"></use>
                 </svg>
               </div>
@@ -65,10 +65,10 @@
               info@devstudio.com
             </a>
           </li>
-          <li class="item">
-            <a href="tel:+380961111111" class="link header-tel">
-              <div class="header-smartphone">
-                <svg class="icon-header">
+          <li class="firm-adress__item">
+            <a href="tel:+380961111111" class="firm-address__tel">
+              <div class="smartphone">
+                <svg class="address-icon">
                   <use href="./img/symbol-defs.svg#icon-smartphone"></use>
                 </svg>
               </div>
@@ -527,29 +527,29 @@
       <!-- LOGO -->
       <div class="container footer-box">
         <div class="footer-section1">
-          <a href="./index.html" lang="en" class="link footer-logo"
-            ><span class="accent">Web</span>Studio</a
+          <a href="./index.html" lang="en" class="logo footer__logo"
+            ><span class="logo--accent">Web</span>Studio</a
           >
           <!-- АДРЕС -->
           <address class="firm-address">
-            <ul class="list">
-              <li class="footer-link">
+            <ul class="firm-adress__list">
+              <li class="firm-adress__item">
                 <a
                   href="https://goo.gl/maps/z1Q6Qn75EZwD1Re8A"
-                  class="link map-link"
+                  class="map firm-address__link"
                   >м. Київ, пр-т Лесі Українки, 26</a
                 >
               </li>
-              <li class="footer-link">
+              <li class="firm-adress__item">
                 <a
                   href="mailto:info@devstudio.com"
                   lang="en"
-                  class="link footer-mail"
+                  class="firm-address__link"
                   >info@devstudio.com</a
                 >
               </li>
-              <li class="footer-link">
-                <a href="tel:+380961111111" class="link footer-tel"
+              <li class="firm-adress__item">
+                <a href="tel:+380961111111" class="firm-address__link"
                   >+38 096 111 11 11</a
                 >
               </li>
@@ -592,8 +592,8 @@
         </div>
 
         <form class="form-sign" autocomplete="off">
-          <p class="form-sign-title">Підпишіться на розсилку</p>
-          <div class="form-sign-thumb">
+          <p class="form-sign__title">Підпишіться на розсилку</p>
+          <div class="form-sign__thumb">
             <div class="form-sign-field">
               <label class="form-sign-label">
                 <input

@@ -1,10 +1,24 @@
-.logo {
-    display: block;
+%logo {
+  display: block;
   padding-top: 24px;
   padding-bottom: 25px;
-  font-family: "Raleway", sans-serif;
+  font-family: $secondary-font-family;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  color: #000000;
+}
+.logo {
+  @extend %link;
+    @extend %logo;
+}
+.nav__logo {
+  color: $logo-nav-color;
+}
+
+.footer__logo {
+  color: $logo-footer-color;
+}
+
+.logo--accent {
+  color: $accent-color;
 }

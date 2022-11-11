@@ -1,0 +1,54 @@
+$primary-font-family: "Roboto", sans-serif;
+$secondary-font-family: "Raleway", sans-serif;
+$primary-color: #757575;
+$secondary-color: #212121;
+$accent-color: #2196f3;
+$logo-nav-color: #000000;
+$logo-footer-color: #FFFFFF;
+
+
+%link {
+  text-decoration: none;
+}
+%list {
+  list-style-type: none;
+}
+.container {
+  width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+body {
+  font-family: var(--primary-font-family), -apple-system, BlinkMacSystemFont,
+    avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu,
+    noto, arial, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--primary-color);
+
+  max-width: 1600px;
+}
+
+h1,
+h2,
+h3,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+ul, li, a {
+list-style-type: none;
+text-decoration: none;
+}

@@ -1,0 +1,21 @@
+.page-footer {
+    display: flex;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        background-color: #2f303a;
+}
+.footer-box {
+    display: flex;
+        align-items: baseline;
+}
+.footer-section1 {
+    display: flex;
+    flex-direction: column;
+    width: 231px;
+    margin-right: 70px;
+}
+.footer-section2 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 93px;
+}
