@@ -7,10 +7,12 @@
   font-size: 26px;
   line-height: 1.2;
 }
+
 .logo {
   @extend %link;
-    @extend %logo;
+  @extend %logo;
 }
+
 .nav__logo {
   color: $logo-nav-color;
 }

@@ -10,20 +10,24 @@ $logo-footer-color: #FFFFFF;
 %link {
   text-decoration: none;
 }
+
 %list {
   list-style-type: none;
 }
+
 .container {
   width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-right: auto;
-    margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -38,9 +42,10 @@ $logo-footer-color: #FFFFFF;
 }
 
 %icons {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
+
 body {
   font-family: $primary-font-family, -apple-system, BlinkMacSystemFont,
     avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu,

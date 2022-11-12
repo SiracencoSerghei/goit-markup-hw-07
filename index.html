@@ -39,9 +39,7 @@
               <a href="./index.html" class="nav__studio current">Студія</a>
             </li>
             <li class="nav__item">
-              <a href="./portfolio.html" class="nav__portfolio"
-                >Портфоліо</a
-              >
+              <a href="./portfolio.html" class="nav__portfolio">Портфоліо</a>
             </li>
             <li class="nav__item">
               <a href="#" class="nav__contacts">Контакти</a>
@@ -66,7 +64,10 @@
             </a>
           </li>
           <li class="page-header-address__item firm-address__item">
-            <a href="tel:+380961111111" class="page-header-address__link firm-address__link">
+            <a
+              href="tel:+380961111111"
+              class="page-header-address__link firm-address__link"
+            >
               <div class="smartphone">
                 <svg class="address-icon">
                   <use href="./img/symbol-defs.svg#icon-smartphone"></use>
@@ -93,14 +94,20 @@
           <div class="backdrop is-hidden" data-modal>
             <div class="backdrop__modal modal">
               <div class="modal__action-close">
-                <button class="modal__buttone-close button-close" type="button" data-modal-close>
+                <button
+                  class="modal__buttone-close button-close"
+                  type="button"
+                  data-modal-close
+                >
                   <svg class="icon">
                     <use href="./img/symbol-defs.svg#icon-close"></use>
                   </svg>
                 </button>
               </div>
               <form class="form-order" name="order-service" action="#">
-                <p class="form-order__title">Залиште свої дані, ми вам передзвонимо</p>
+                <p class="form-order__title">
+                  Залиште свої дані, ми вам передзвонимо
+                </p>
 
                 <div class="form-order__inserts">
                   <label class="form-order__field">
@@ -109,7 +116,7 @@
                       class="form-order__input"
                       type="text"
                       name="name"
-                    required
+                      required
                     />
 
                     <span class="form-order__field-icon">
@@ -159,7 +166,7 @@
                       name="comment"
                       rows="5"
                       required
-                       maxlength="225"
+                      maxlength="225"
                       placeholder="Введіть текст"
                     ></textarea>
                   </label>
@@ -170,7 +177,8 @@
                     class="check__input"
                     type="checkbox"
                     name="policy"
-                    required checked
+                    required
+                    checked
                   /><span class="check__claim">
                     Погоджуюся з розсилкою та приймаю
                     <a class="check__policy-contract" href="#"
@@ -560,57 +568,56 @@
         <div class="discover">
           <p class="discover__title">приєднуйтесь</p>
           <ul class="socials-list">
-                  <li class="social-list__item">
-                    <a href="#" class="social-list__link">
-                      <svg class="social-list__icon">
-                        <use href="./img/symbol-defs.svg#icon-instagram"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-list__item">
-                    <a href="#" class="social-list__link">
-                      <svg class="social-list__icon">
-                        <use href="./img/symbol-defs.svg#icon-twitter"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-list__item">
-                    <a href="#" class="social-list__link">
-                      <svg class="social-list__icon">
-                        <use href="./img/symbol-defs.svg#icon-facebook"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-list__item">
-                    <a href="#" class="social-list__link">
-                      <svg class="social-list__icon">
-                        <use href="./img/symbol-defs.svg#icon-linkedin"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
+            <li class="social-list__item">
+              <a href="#" class="social-list__link">
+                <svg class="social-list__icon">
+                  <use href="./img/symbol-defs.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list__item">
+              <a href="#" class="social-list__link">
+                <svg class="social-list__icon">
+                  <use href="./img/symbol-defs.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list__item">
+              <a href="#" class="social-list__link">
+                <svg class="social-list__icon">
+                  <use href="./img/symbol-defs.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list__item">
+              <a href="#" class="social-list__link">
+                <svg class="social-list__icon">
+                  <use href="./img/symbol-defs.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
         </div>
 
         <form class="form-sign" autocomplete="off">
           <p class="form-sign__title">Підпишіться на розсилку</p>
           <div class="form-sign__thumb">
-            
-              <label class="form-sign__label">
-                <input
-                  class="form-sign__input-field"
-                  type="email"
-                  name="mail"
-                  required placeholder="E-mail"
-                />
-              </label>
-            
+            <label class="form-sign__label">
+              <input
+                class="form-sign__input-field"
+                type="email"
+                name="mail"
+                required
+                placeholder="E-mail"
+              />
+            </label>
+
             <button class="button" type="submit">
               Підписатися
               <svg class="button__icon">
                 <use href="./img/symbol-defs.svg#icon-send"></use>
               </svg>
             </button>
-
           </div>
         </form>
       </div>
