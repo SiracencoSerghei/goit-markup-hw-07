@@ -1,0 +1,49 @@
+.our-team {
+  background: #f5f4fa;
+}
+.our-team__title {
+    margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: $secondary-color;
+}
+.our-team__list {
+    display: flex;
+  gap: 30px;
+}
+.our-team__member {
+    @extend %list;
+    flex-basis: calc((100% - 90px) / 4);
+}
+.our-team__description {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 32px;
+
+  background: #ffffff;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.our-team__employee {
+    font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: $secondary-color;
+}
+.our-team__position {
+    margin-top: 10px;
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}

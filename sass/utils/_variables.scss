@@ -20,6 +20,23 @@ $logo-footer-color: #FFFFFF;
     margin-right: auto;
     margin-left: auto;
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 %icons {
     width: 100%;
     height: 100%;

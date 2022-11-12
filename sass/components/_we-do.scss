@@ -1,0 +1,39 @@
+.we-do {
+    padding-bottom: 94px;
+  }
+  .we-do__title {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: $secondary-color;
+  }
+  .we-do__list {
+    display: flex;
+    gap: 30px;
+    @extend %list;
+  }
+  .we-do__item {
+
+  position: relative;
+  flex-basis: calc((100% - 2 * 30px) / 3);
+  }
+  .we-do__service {
+    display: flex;
+  position: absolute;
+  width: 370px;
+  height: 70px;
+  left: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: rgba(47, 48, 58, 0.8);
+  }

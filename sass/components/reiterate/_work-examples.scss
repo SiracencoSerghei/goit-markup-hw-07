@@ -1,0 +1,86 @@
+.work-examples {
+    display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.work-examples__item {
+    @extend %list;
+
+  display: flex;
+  flex-direction: column;
+  flex-basis: calc((100% - 2 * 30px) / 3);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+        .work-examples__explication,
+        .work-examples__explication {
+  opacity: 1;
+  bottom: 0;
+  
+}
+  }
+  
+}
+.work-examples__link {
+    @extend %link;
+    
+        display: flex;
+        flex-direction: column;
+    
+}
+.work-examples__explication-thumb {
+    position: relative;
+  overflow: hidden;
+}
+.work-examples__explication {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -294px;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    padding: 63px 24px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: calc(28 / 18);
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    background: rgba(33, 150, 243, 0.9);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      bottom 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.work-examples__border {
+    margin: 0;
+    padding: 20px 24px;
+  
+    border-top: 0;
+    border-right: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
+  }
+  .work-examples__title {
+    margin: 0;
+    padding: 0;
+  
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: $secondary-color;
+  }
+  .work-examples__description {
+    padding: 0;
+    margin-top: 8px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: left;
+    color: $primary-color;
+  }
+  
