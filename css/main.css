@@ -744,7 +744,7 @@ button {
 }
 
 .check__claim {
-  padding-left: 26px;
+  margin-left: 26px;
 }
 
 .check__policy-contract {
@@ -962,6 +962,14 @@ button {
 .nav__contacts:hover,
 .nav__contacts:focus {
   color: #2196f3;
+}
+
+.page-header {
+  display: block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #ececec;
 }
 
 .box {
