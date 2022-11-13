@@ -145,7 +145,7 @@
       background-color: $accent-color;
     }
     &:hover,
-    &:focus { border: 2px solid $accent-color; }
+    &:focus { border-color: $accent-color; }
   }
   .check__claim {
     margin-left: 26px;
