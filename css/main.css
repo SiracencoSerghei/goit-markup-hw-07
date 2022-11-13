@@ -1095,7 +1095,6 @@ button {
 }
 .modal__action-close .icon:hover, .modal__action-close .icon:focus {
   fill: #2196f3;
-  border-color: #2196f3;
 }
 
 .key-features__list {
